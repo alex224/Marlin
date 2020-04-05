@@ -410,7 +410,7 @@
  * heater. If your configuration is significantly different than this and you don't understand
  * the issues involved, don't use bed PID until someone else verifies that your hardware works.
  */
-#define PIDTEMPBED
+//#define PIDTEMPBED
 
 //#define BED_LIMIT_SWITCHING
 
@@ -725,6 +725,7 @@
  * The BLTouch probe uses a Hall effect sensor and emulates a servo.
  */
 //#define BLTOUCH
+
 
 /**
  * Enable one or more of the following if probing seems unreliable.
@@ -1144,7 +1145,7 @@
 #endif
 
 // Homing speeds (mm/m)
-#define HOMING_FEEDRATE_XY (50*60)
+#define HOMING_FEEDRATE_XY (20*60)
 #define HOMING_FEEDRATE_Z  (4*60)
 
 // @section calibrate
